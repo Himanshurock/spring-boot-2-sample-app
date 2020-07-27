@@ -53,7 +53,7 @@ public class HealthIT {
     public void fullMessage() {
 		System.out.println("========Test3=======");
 		given().when().get("/")
-            .then().body("message",equalTo("Spring boot says hello from a Docker container"));
+            .then().body("message",equalTo("Spring boot says hello"));
     }
 	
 	@Test
